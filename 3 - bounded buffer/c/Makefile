@@ -1,10 +1,10 @@
-CC = clang
+CC = gcc
 
-CFLAGS = -Wall -g -std=c99 
+CFLAGS = -Wall -g -std=gnu99 
 LDFLAGS = -lpthread -g
-SRC = foo.c
+SRC = main.c ringbuf.c
 
-TARGET = foo
+TARGET = boundedbuffer
 
 all: $(TARGET)
 
