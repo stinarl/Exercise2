@@ -33,4 +33,4 @@ Simpler algorithms (in some cases)
 
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> It is faster
+> It is faster kkkkk
