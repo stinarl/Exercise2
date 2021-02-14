@@ -22,7 +22,6 @@ A semaphore is a signal used to control access to threads such as critical secti
 
 
 ### What are the differences between channels (in Communicating Sequential Processes, or as used by Go, Rust), mailboxes (in the Actor model, or as used by Erlang, D, Akka), and queues (as used by Python)? 
-> What are the differences between channels (in Communicating Sequential Processes, or as used by Go, Rust), mailboxes (in the Actor model, or as used by Erlang, D, Akka), and queues (as used by Python)? 
 > CSP are a formal language for describing patterns og communication between concurrent processes. channels (go) serve the same purpose. A mailbox is were threads are qued while waiting to be prosecuted by the actor. In a mailbox it is possible to make priorities between the waiting threads, which meaans it serves the same purpose as a channel  or CSP.
 
 
@@ -30,7 +29,9 @@ A semaphore is a signal used to control access to threads such as critical secti
 > In addition to just locking you can share messages.
 It is easier to keep track of what you do.
 Simpler algorithms (in some cases)
+Erase risk for deadlocks etc.
+Less chance for bugs.
 
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> It is faster kkkkk
+> None. It might in some cases be simpler to implement.
