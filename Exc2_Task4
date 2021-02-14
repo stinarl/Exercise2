@@ -1,0 +1,17 @@
+I find it hard to choose a programming language based on my current knowledge. I used to have quite extensive knowledge about Java and C++, 
+but its been twenty years since, the languages have developed and I dont remember much. This leaves me on the bottom floor and I'm
+trying to do some proper research on the topic.
+Ive focused on reading about Java, C++, Python, Golang and Ada. Ada I have sorted out most because I havent heard of it before and 
+assumes it is not widely used in engineering. Ive tried to do som research when it comes to concurrency. It seams to me that C and C++ are the 
+only languages among these that dont support built-in threads. C++ still have good ways of supporting concurrency, witch gives me no
+more arguments on what to choose. I might have preferred 
+C++. I used to be good at it. It is commonly used among engineers and will with certainty be useful to know later. Which is of most importance to me.
+Python is known to be easy. It is fast growing in popularity, also used among enginers, and Ive allready started learning it. Since it 
+is not recommended to be used in this course based on accessable student assistant knowledge, Ive sorted that out too. 
+Java seems to be running out of interest in engineering, at least that is my experience up til now. Otherwise it is simple, widely used in
+application development, it is platform independent (as is the other languages mentioned here as well), it is secure, multithreading is easily implemented.
+Though it is a bit slow. Sorted out for now because og lack in popularity.
+Golang is recomended for this course. It is said to be easy to learn and concurrency is said to be an integrated part of the language by goroutines as 
+channels and the select statement. For my part I dont find it that interesting. It is not commonly used in larger engineering companies. 
+But for now this seems to be the preferred language among my group members and classmates as well as the student assistants. 
+And with my current knowledge this seams to be the most importent criteria for now.
