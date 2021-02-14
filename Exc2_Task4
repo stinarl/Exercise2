@@ -11,7 +11,7 @@ is not recommended to be used in this course based on accessable student assista
 Java seems to be running out of interest in engineering, at least that is my experience up til now. Otherwise it is simple, widely used in
 application development, it is platform independent (as is the other languages mentioned here as well), it is secure, multithreading is easily implemented.
 Though it is a bit slow. Sorted out for now because og lack in popularity.
-Golang is recomended for this course. It is said to be easy to learn and concurrency is said to be an integrated part of the language by goroutines as 
-channels and the select statement. For my part I dont find it that interesting. It is not commonly used in larger engineering companies. 
+Golang is recomended for this course. It has a memory sefety. It is said to be easy to learn and has a runtime for built-in concurrency by goroutines as 
+channels and the select statement. It is as far as I know not commonly used in larger engineering companies. 
 But for now this seems to be the preferred language among my group members and classmates as well as the student assistants. 
 And with my current knowledge this seams to be the most importent criteria for now.
