@@ -34,4 +34,4 @@ Less chance for bugs.
 
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> None. It might in some cases be simpler to implement.
+> It might in some cases be simpler to implement. And also a bit faster to run.
