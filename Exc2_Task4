@@ -1,17 +1,33 @@
-I find it hard to choose a programming language based on my current knowledge. I used to have quite extensive knowledge about Java and C++, 
-but its been twenty years since, the languages have developed and I dont remember much. This leaves me on the bottom floor and I'm
-trying to do some proper research on the topic.
-Ive focused on reading about Java, C++, Python, Golang and Ada. Ada I have sorted out most because I havent heard of it before and 
-assumes it is not widely used in engineering. Ive tried to do som research when it comes to concurrency. It seams to me that C and C++ are the 
-only languages among these that dont support built-in threads. C++ still have good ways of supporting concurrency, witch gives me no
-more arguments on what to choose. I might have preferred 
-C++. I used to be good at it. It is commonly used among engineers and will with certainty be useful to know later. Which is of most importance to me.
-Python is known to be easy. It is fast growing in popularity, also used among enginers, and Ive allready started learning it. Since it 
-is not recommended to be used in this course based on accessable student assistant knowledge, Ive sorted that out too. 
-Java seems to be running out of interest in engineering, at least that is my experience up til now. Otherwise it is simple, widely used in
+I dont feel competent enough to really make a well considered answer to this question at this point. Though I have done som research on the topic to try to 
+make a well-considered choise, or at least to be able to argument for my choise. It seams to me that c and c++ has been most extensively used for real-time
+programming for a very long time. Though Ada was also used, expecially in the 90's, and is still used in aerospace industry today. I know from my own experience 
+from space research that old implemetations is often used for critical systems, because they are very well tested for bugs and failures. 
+
+I've read that Ada has syncronous task control, and that it supports concurrency. I would think that parallell threads and concurrency was not that much of an 
+issue in the 90's due to significantly slower computers with just an inch of the capasity of the computers today, and that this therefore has been more 
+important in the development of new programming languages. 
+
+C++ does not directly support concurrency. Since concurrency is of increasingly importance in real-time programming and in programing today in general, 
+I would consider this a flaw. On the other hand I know for sure that C and C++ are the most used programing languages in industry and engineering and has been so for
+decades. Therefor I assume they will not be irrelevant in the years to come, and that it will be continously improved to fulfill the demands of the programming
+features that we need in the years to come. 
+
+I've read that C++ has some flaws when it comes to error handling and fault tolerance. That minor errors might lead
+to large programs crashing. I have no personal experience with this, and for such an extencively used programming language one might think that
+there must have been done some work to overcome this. 
+
+Ive read that java is much used in real-time applications, that it supports concurrency which is important for this course. Otherwise it is simple, widely used in
 application development, it is platform independent (as is the other languages mentioned here as well), it is secure, multithreading is easily implemented.
-Though it is a bit slow. Sorted out for now because og lack in popularity.
-Golang is recomended for this course. It has a memory sefety. It is said to be easy to learn and has a runtime for built-in concurrency by goroutines as 
-channels and the select statement. It is as far as I know not commonly used in larger engineering companies. 
-But for now this seems to be the preferred language among my group members and classmates as well as the student assistants. 
-And with my current knowledge this seams to be the most importent criteria for now.
+Though it is quite slow.
+
+In contrary Go is a very simple and fast processed language. I havent been programming for the last twenty years, but I find Go quite easy to understand, also when
+it comes to the use of go-routines, channels and select. All I have read points towards that Go works extraordinary well with concurrency, due to the formerly
+mentioned routines. Contradictory to my expectations it is also increasingly being used in industry and engineering, which makes it a relevant programming language
+to know. A merrit of some importance to me when it comes to learning a new programming language.
+
+Otherwise Python is known to be easy. It is fast growing in popularity, also used in engineering and industry. Based on what Ive read it does not have sufficient 
+support of concurrency and would therefore not be a good choise for this course.
+
+Since Go is recommended for this course and has, again from my reading and not from personal experience, good routines for error handling. It might also have
+the best routines for concurrency. It is easy to learn and imlplement and it seems to me it might be a programming language for the future. 
+All this makes Go a simple choise for this spesific course.  
